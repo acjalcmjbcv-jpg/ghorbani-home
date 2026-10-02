@@ -125,4 +125,12 @@
   
 </footer>
 <script src="script.js"></script>
+<script>
+let cartCount = 0;
 
+function addToCart() {
+  cartCount++;
+  document.getElementById("cartCount").textContent = cartCount;
+  alert("محصول به سبد خرید اضافه شد 🛒");
+}
+</script>
